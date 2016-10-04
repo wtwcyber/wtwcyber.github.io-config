@@ -1,0 +1,116 @@
+# Site settings
+baseurl = "https://wtwcyber.github.io/"
+languageCode = "en-us"
+title = "Cyber Patriot"
+theme = "hugo-freelancer-theme"
+
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "WTW Cyber Patriot"
+    description = "A club for programming and security enthusiasts"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email youself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "wtwcyber@gmail.com"
+
+    [params.navigation]
+        brand = "Cyber Patriot Site"
+
+
+    [params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "profile.png"
+        name = "WTW Cyber Patriot"
+        subtitle = "A club for programming and security enthusiasts"
+
+    [params.updates]
+        title = "Updates"
+        text = ["Meeting #2 of Cyber Patriot is Thursday, October 6th, in Dr. Oberle's room, A229. \n Meeting #3 of CyberPatriot is Wednesday, October 12th, Ms. Baram's room, A222. \n Meeting #4 of CyberPatriot is Thursday, October 20th, Ms. Baram's room, B112. \n Meeting #5 of CyberPatriot is Tuesday, October 25th, Ms. Baram's room, A222."]
+
+
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Activities"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+
+
+    [params.about]
+        title = "About"
+        # The about text is splitted into a left and right column
+        # left = "The WTW Security Club meets every week to collaborate on programming and security projects and train for our annual participation in the US Cyber Patriot competition."
+        left = "Cyber Patriot meets every week to collaborate on programming and security projects and train for our annual participation in the US Cyber Patriot competition."
+        right = "If you're interested in joining, please select the link below to sign up for our email list. Whether you're new to programming or already an expert, we'd love to have you on board!"
+
+        [params.about.button]
+            text = "Get Emails and Updates"
+            link = "https://docs.google.com/forms/d/e/1FAIpQLSd4FcRfNAfxJWSTkp-3D1cHdvVQYSnCZgI0M3HBNfp9nAbAvw/viewform?entry.914549659&entry.1760518403&entry.1217600417=No+thanks"
+
+
+    [params.contact]
+        title = "Contact"
+
+        # 'error' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Name"
+            error = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Email Address"
+            error = "Please enter your email address."
+
+        [params.contact.form.phone]
+            text = "Phone Number"
+            error = "Please enter your phone number."
+
+        [params.contact.form.message]
+            text = "Message"
+            error = "Please enter a message."
+
+        [params.contact.form.button]
+            text = "Send"
+
+
+    [params.footer]
+        copyright = "Static HTML/JS compiled with [Hugo](//gohugo.io)."
+
+        [params.footer.location]
+            title = "WT Woodson HS"
+            # Postal address (add as many lines as necessary)
+            address = ["9525 Main Street", "Fairfax, VA 22031"]
+
+        [params.footer.social]
+            title = "Around the web"
+            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "//github.com/wtwcyber"
+
+
+        [params.footer.credits]
+            title = "Credits"
+            text = "This site is originally based on [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme/), which is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). All modifications by Sam Scheele."
