@@ -26,6 +26,8 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
+    # \n Meeting #3 of CyberPatriot is Wednesday, October 12th, Ms. Baram's room, A222. \n Meeting #4 of CyberPatriot is Thursday, October 20th, Ms. Baram's room, B112. \n Meeting #5 of CyberPatriot is Tuesday, October 25th, Ms. Baram's room, A222.
+    
     email = "wtwcyber@gmail.com"
 
     [params.navigation]
@@ -40,7 +42,8 @@ theme = "hugo-freelancer-theme"
 
     [params.updates]
         title = "Updates"
-        text = ["Meeting #2 of Cyber Patriot is Thursday, October 6th, in Dr. Oberle's room, A229. \n Meeting #3 of CyberPatriot is Wednesday, October 12th, Ms. Baram's room, A222. \n Meeting #4 of CyberPatriot is Thursday, October 20th, Ms. Baram's room, B112. \n Meeting #5 of CyberPatriot is Tuesday, October 25th, Ms. Baram's room, A222."]
+        text = ["Meeting #2 of Cyber Patriot is Thursday, October 6th, in Dr. Oberle's room, A229."]
+        text = ["Meeting #3 of Cyber Patriot is Wednesday, October 12th, in Ms. Baram's room, A222."]
 
 
     [params.portfolio]
@@ -113,4 +116,4 @@ theme = "hugo-freelancer-theme"
 
         [params.footer.credits]
             title = "Credits"
-            text = "This site is originally based on [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme/), which is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). All modifications by Sam Scheele."
+            text = "This site is originally based on [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme/), which is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). All modifications by Sam Scheele and Taylan Unal."
