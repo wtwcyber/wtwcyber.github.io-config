@@ -42,7 +42,7 @@ theme = "hugo-freelancer-theme"
 
     [params.updates]
         title = "Updates"
-        text = ["Meeting #3 of Cyber Patriot is Wednesday, October 12th, in Ms. Baram's room (A222)", "Meeting #4 of CyberPatriot is Thursday, October 20th, Ms. Baram's room (B112)", "Meeting #5 of CyberPatriot is Tuesday, October 25th, Ms. Baram's room (A222)"]
+        text = ["Meeting #11 of Cyber Patriot is Friday, December 6th, in Ms. Baram's room (A222)", "Meeting #12 of CyberPatriot will be for Networking on Sunday, December 8th, with Mr. Wild"]
 
 
     [params.portfolio]
